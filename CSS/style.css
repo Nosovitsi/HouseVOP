@@ -145,7 +145,8 @@ span {
 /* Chapter VI */
 
 .wrapper__2 {
-    background: #242B33;
+    background-color: #242B33;
+    height: 1226px;
 }
 
 .icon__top {
@@ -190,3 +191,6 @@ span {
     background-position: top center;
     padding-top: 119px;
 }
+
+
+/* Chapter VII */
