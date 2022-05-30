@@ -28,12 +28,14 @@ span {
 .header {
     background-image: url(../Media/Rectangle.png);
     background-size: cover;
-    background-size: cover;
+    height: 840px;
     width: 100%;
 }
 
-.header_menu {
+.header_menu_top {
     padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .header .container {
@@ -45,10 +47,77 @@ span {
     margin: 0 auto;
 }
 
-.logo {
+.header_menu_top_logo h2 {
     font-family: 'Post No Bills Jaffna', sans-serif;
     font-weight: 600;
     font-size: 36px;
     line-height: 54px;
     color: #FFFFFF;
+}
+
+.header_menu_top_links li {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    padding: 25px 20px 0px 20px;
+}
+
+.header_menu_top_links li:last-child {
+    padding: 25px 0px 0px 20px;
+}
+
+.header_menu_buttom p {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.12em;
+}
+
+
+/* Chapter II */
+
+.live_complex {
+    margin-top: 200px;
+}
+
+.live_complex h1 {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #D4C17F;
+}
+
+.live_complex_pointer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.live_complex_links {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.live_complex_links li {}
+
+.live_complex_links a:first-child {
+    background-image: url(../Media/Pointer.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 30px;
+    padding-right: 68px;
+}
+
+.live_complex_links a:last-child {
+    background-image: url(../Media/Phone.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 30px;
+    padding-right: 68px;
 }
