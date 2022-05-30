@@ -35,7 +35,7 @@ span {
     background-image: url(../Media/Rectangle.png);
     height: 840px;
     background-size: cover;
-    width: 100%;
+    width: 100vw;
 }
 
 .header .container {
