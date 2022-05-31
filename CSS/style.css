@@ -104,8 +104,6 @@ span {
     text-align: center;
 }
 
-.live_complex_links li {}
-
 .live_complex_links a:first-child {
     background-image: url(../Media/Pointer.svg);
     background-repeat: no-repeat;
@@ -121,3 +119,71 @@ span {
     padding-left: 30px;
     padding-right: 68px;
 }
+
+
+/* Chapter III */
+
+.wrapper {
+    height: 1226px;
+    background: #242B33;
+}
+
+.wrapper .container {
+    padding-top: 0.1px;
+}
+
+.wrapper_gallery {
+    position: relative;
+}
+
+.wrapper_gallery_img_1 {
+    position: absolute;
+    margin: -240px 0 0 1000px;
+}
+
+.wrapper_gallery ul {
+    margin-top: 114px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wrapper_gallery li {
+    display: inline-block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+}
+
+#icon_1 {
+    background-image: url(../Media/Icon_1.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-top: 139px;
+}
+
+#icon_2 {
+    background-image: url(../Media/Icon_2.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-top: 139px;
+}
+
+#icon_3 {
+    background-image: url(../Media/Icon_3.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-top: 139px;
+}
+
+#icon_4 {
+    margin-top: 20px;
+    background-image: url(../Media/Icon_4.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-top: 119px;
+}
+
+.wrapper_flats {}
